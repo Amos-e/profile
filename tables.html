@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            padding: 1em;
+        }
+        table td {
+            padding: 0.5em 1em;
+        }
+    </style>
+</head>
+<body>
+    <h3>Table 1</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>SCS104</td>
+                <td></td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Table 2</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h3>Table 3</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">SCS101</td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+                <td rowspan="2">
+                    <ol type="i">
+                        <li>eat</li>
+                        <li>sleep</li>
+                    </ol>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS104</td>
+                <td>SCS105</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>SCS101</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>SCS101</td>
+                <td></td>
+                <td></td>
+                <td>SCS102</td>
+                <td>SCS102</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
